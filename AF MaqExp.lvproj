@@ -15,6 +15,7 @@
 			<Item Name="USD Actor.lvlib" Type="Library" URL="../USD Actor/USD Actor.lvlib"/>
 		</Item>
 		<Item Name="Product Actors" Type="Folder"/>
+		<Item Name="Bakery Actor.lvlib" Type="Library" URL="../Bakery Actor/Bakery Actor.lvlib"/>
 		<Item Name="Coffee Actor.lvlib" Type="Library" URL="../Coffee Actor/Coffee Actor.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="UI Actor.lvlib" Type="Library" URL="../UI Actor/UI Actor.lvlib"/>
