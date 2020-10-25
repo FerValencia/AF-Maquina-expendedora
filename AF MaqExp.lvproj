@@ -10,10 +10,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Coins Actors" Type="Folder">
+			<Item Name="MXN Actor.lvlib" Type="Library" URL="../MXN Actor/MXN Actor.lvlib"/>
+			<Item Name="USD Actor.lvlib" Type="Library" URL="../USD Actor/USD Actor.lvlib"/>
+		</Item>
+		<Item Name="Product Actors" Type="Folder"/>
+		<Item Name="Coffee Actor.lvlib" Type="Library" URL="../Coffee Actor/Coffee Actor.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
-		<Item Name="MXN Actor.lvlib" Type="Library" URL="../MXN Actor/MXN Actor.lvlib"/>
 		<Item Name="UI Actor.lvlib" Type="Library" URL="../UI Actor/UI Actor.lvlib"/>
-		<Item Name="USD Actor.lvlib" Type="Library" URL="../USD Actor/USD Actor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
