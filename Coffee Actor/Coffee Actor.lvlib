@@ -5,7 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Compra Msg.lvclass" Type="LVClass" URL="../../Coffee Actor Messages/Compra Msg/Compra Msg.lvclass"/>
 		<Item Name="init Msg.lvclass" Type="LVClass" URL="../../Coffee Actor Messages/init Msg/init Msg.lvclass"/>
+		<Item Name="Producto Msg.lvclass" Type="LVClass" URL="../../Coffee Actor Messages/Producto Msg/Producto Msg.lvclass"/>
 	</Item>
 	<Item Name="Coffee Actor.lvclass" Type="LVClass" URL="../Coffee Actor.lvclass"/>
 </Library>
